@@ -15,7 +15,7 @@ function Header() {
   return (
     <Navbar expand="lg" className=" bg-warning px-5 py-2 position-fixed w-100 top-0" style={{zIndex:"1"}}>
     <Container fluid>
-      <Link to={'/'} style={{textDecoration:"none"}}><Navbar.Brand href="#" className='fs-2 text-white'><FontAwesomeIcon icon={faCartShopping} bounce className='me-3 fs-5 text-dark'/>E-CART</Navbar.Brand></Link>
+      <Link to={'/'} style={{textDecoration:"none"}}><Navbar.Brand href="#" className='fs-2 text-white'><FontAwesomeIcon icon={faCartShopping} bounce className='me-3 fs-5 text-dark'/>Shopify</Navbar.Brand></Link>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
        <Nav className="ms-auto">
